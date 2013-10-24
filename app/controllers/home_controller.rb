@@ -12,7 +12,9 @@ class HomeController < ApplicationController
 
   def process_api_data(data)
     puts "Proccessing data:"
-    pp data
+    # Uncomment the following line when debugging:
+    # pp data
+
     # TODO:
     lowest_price = -1
     highest_price = -1
